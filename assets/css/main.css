@@ -1,4 +1,4 @@
-@import url(c:\Users\gervo\Documents\Gervonte Fowler Portfolio\assets\css\fontawesome-all.min.css);
+@import url(c:\Users\gervo\Documents\Gervonte-Fowler-Portfolio\assets\css\fontawesome-all.min.css);
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,600,600italic");
 /*
 	Forty by HTML5 UP
@@ -2709,6 +2709,11 @@ button:disabled,
   background-color: #03151b;
 }
 
+.spotlights > section .video-container {
+  text-align: center;
+  overflow: hidden;
+}
+
 .spotlights > section > .image {
   background-position: center center;
   background-size: cover;
@@ -2726,7 +2731,7 @@ button:disabled,
 
 .spotlights > section > .image:before {
   background: rgba(2, 14, 18, 0.9);
-  content: '';
+  content: "";
   display: block;
   height: 100%;
   left: 0;
@@ -3203,6 +3208,7 @@ body.is-preload #header.alt {
 
 #banner.style2:after {
   background-color: #357266;
+  opacity: 0.85;
 }
 
 #banner.style3:after {

@@ -115,6 +115,7 @@
   &.style2 {
     &:after {
       background-color: _palette(accent2);
+      opacity: 0.85;
     }
   }
   &.style3 {

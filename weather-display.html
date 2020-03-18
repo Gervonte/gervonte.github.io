@@ -6,7 +6,7 @@
 -->
 <html>
   <head>
-    <title>Portfolio by Gervonte Fowler</title>
+    <title>Weather Display - Gervonte Fowler</title>
     <meta charset="utf-8" />
     <meta
       name="viewport"
@@ -19,7 +19,8 @@
     <!-- Wrapper -->
     <div id="wrapper">
       <!-- Header -->
-      <header id="header" class="alt">
+      <!-- Note: The "styleN" class below should match that of the banner element. -->
+      <header id="header" class="alt style2">
         <a href="index.html" class="logo">
           <strong>Gervonte</strong> <span>Fowler</span>
         </a>
@@ -45,59 +46,91 @@
       </nav>
 
       <!-- Banner -->
-      <section id="banner" class="major">
+      <!-- Note: The "styleN" class below should match that of the header element. -->
+      <section id="banner" class="style2">
         <div class="inner">
           <span class="image">
-            <img src="images/Profile/profileGrad.jpg" alt="" />
+            <img src="images/weatherDisplay/homeImagea.jpg" alt="" />
           </span>
           <header class="major">
-            <h1>Hi, my name is Gervonte</h1>
+            <h1>Weather Display</h1>
           </header>
           <div class="content">
             <p>
-              I'm a Software Developer and <br />
-              this is what I've been working on.
+              Weather based on user location with a dynamic image to match.
             </p>
-            <ul class="actions">
-              <li>
-                <a href="/resume.pdf" class="button primary">Resume</a>
-                <a href="#one" class="button next scrolly">Projects</a>
-              </li>
-            </ul>
           </div>
+          <ul class="actions">
+            <li>
+              <a
+                href="https://github.com/Gervonte/weather"
+                target="_blank"
+                class="button primary"
+                >View on Github</a
+              >
+
+              <a href="weather/index.html" target="_blank" class="button next"
+                >View Demo</a
+              >
+            </li>
+          </ul>
         </div>
       </section>
 
       <!-- Main -->
       <div id="main">
         <!-- One -->
-        <section id="one" class="tiles">
-          <!--Weather Display-->
-          <article>
-            <span class="image">
-              <img src="images/weatherDisplay/homeImagea.jpg" alt="" />
-            </span>
-            <header class="major">
-              <h3>
-                <a href="weather-display.html" class="link">Weather Display</a>
-              </h3>
-              <p>
-                Weather based on user location with a dynamic image to match.
-              </p>
-            </header>
-          </article>
-          <!--Weather Display-->
-          <!--Conquer-->
-          <article>
-            <span class="image">
-              <img src="images/Conquer/homeImage.png" alt="" />
-            </span>
-            <header class="major">
-              <h3><a href="conquer.html" class="link">Conquer</a></h3>
-              <p>3D RTS Game for Android</p>
-            </header>
-          </article>
-          <!--Conquer-->
+        <section id="one" class="spotlights">
+          <section>
+            <a
+              href="images/weatherDisplay/displayb.jpg"
+              target="_blank"
+              class="image"
+            >
+              <img
+                src="images/weatherDisplay/displayb.jpg"
+                alt=""
+                data-position="center center"
+              />
+            </a>
+            <div class="content">
+              <div class="inner">
+                <header class="major">
+                  <h3>My Role</h3>
+                </header>
+                <p>
+                  I used OpenWeather's API to provide the weather data based on
+                  the geolocation given in HTML5.<br />
+                  I also used Unsplash's API to provide high quality images
+                  based on the weather condition.
+                </p>
+              </div>
+            </div>
+          </section>
+          <section>
+            <a
+              href="images/weatherDisplay/weatherCode.jpg"
+              target="_blank"
+              class="image"
+            >
+              <img
+                src="images/weatherDisplay/weatherCode.jpg"
+                alt=""
+                data-position="top center"
+              />
+            </a>
+            <div class="content">
+              <div class="inner">
+                <header class="major">
+                  <h3>Technologies Used</h3>
+                </header>
+                <ul class="alt">
+                  <li>Javascript</li>
+                  <li>HTML5 & CSS</li>
+                </ul>
+              </div>
+            </div>
+          </section>
         </section>
       </div>
 
@@ -155,7 +188,6 @@
         </div>
       </footer>
     </div>
-
     <!-- Scripts -->
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/js/jquery.scrolly.min.js"></script>
