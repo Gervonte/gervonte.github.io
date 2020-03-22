@@ -2617,7 +2617,7 @@ button:disabled,
 }
 
 .tiles article:nth-child(6n - 3):before {
-  background-color: #ec8d81;
+  background-color: #829296;
 }
 
 .tiles article:nth-child(6n - 2):before {
@@ -3002,7 +3002,7 @@ button:disabled,
 }
 
 #header.alt.style3 .logo strong {
-  color: #ec8d81;
+  color: #829296;
 }
 
 #header.alt.style4 .logo strong {
@@ -3212,7 +3212,7 @@ body.is-preload #header.alt {
 }
 
 #banner.style3:after {
-  background-color: #ec8d81;
+  background-color: #829296;
 }
 
 #banner.style4:after {
