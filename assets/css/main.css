@@ -2613,7 +2613,7 @@ button:disabled,
 }
 
 .tiles article:nth-child(6n - 4):before {
-  background-color: #357266;
+  background-color: #726e35;
 }
 
 .tiles article:nth-child(6n - 3):before {
@@ -2621,7 +2621,7 @@ button:disabled,
 }
 
 .tiles article:nth-child(6n - 2):before {
-  background-color: #e7b788;
+  background-color: #5fbaa7;
 }
 
 .tiles article:nth-child(6n - 1):before {
@@ -2998,7 +2998,7 @@ button:disabled,
 }
 
 #header.alt.style2 .logo strong {
-  color: #357266;
+  color: #726e35;
 }
 
 #header.alt.style3 .logo strong {
@@ -3006,7 +3006,7 @@ button:disabled,
 }
 
 #header.alt.style4 .logo strong {
-  color: #e7b788;
+  color: #5fbaa7;
 }
 
 #header.alt.style5 .logo strong {
@@ -3207,7 +3207,7 @@ body.is-preload #header.alt {
 }
 
 #banner.style2:after {
-  background-color: #357266;
+  background-color: #726e35;
   opacity: 0.85;
 }
 
@@ -3216,7 +3216,7 @@ body.is-preload #header.alt {
 }
 
 #banner.style4:after {
-  background-color: #e7b788;
+  background-color: #5fbaa7;
 }
 
 #banner.style5:after {
